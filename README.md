@@ -49,8 +49,7 @@ Let’s get very meta and push this very text document into the repo as well. I 
 # Level 1.5
 First pass at the code is done, now it's time to troubleshoot the SSL cert error to get the thing to actually run.
 
-I marvel sometimes at how most people are not equipped to handle the technology they use daily.
-Take the iPhone. The iPhone changed the world by packaging an immense body of code and connectivity into a disarming array of buttons. If _anything_ goes wrong with even the configuration (say a Mail setting), they fall apart.
+[some time passes]
 
 I just got loaferbot working after 15 minutes on duckduckgo (don't @ me). Turns out when you install Python3 from brew and not python.org, the SSL stack doesn't get upgraded. Who knew. Fortunately, [some kind soul](https://stackoverflow.com/questions/44649449/brew-installation-of-python-3-6-1-ssl-certificate-verify-failed-certificate#44649450) put up the solution. I ran that script, and the bot is now awake.
 
@@ -70,7 +69,7 @@ But it does something!
 Note: to run this app, it's not enough to simply run `python3 loaferbot.py`. It needs a few startup commands. I should script that. 
 I'm going to script that.
 
-[some time passes]
+[some more time passes]
 
 You would think that these three lines would be easy to script:
 
