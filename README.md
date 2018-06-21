@@ -36,7 +36,9 @@ I will run this through pretty quickly. I’ll start local, then start to build 
 I’m not going to copy/paste any of this code. It will be good to get some Python under the fingers, and if I have some bugs in my transcription, they will be good to test and commit. Building up some fodder for the pipeline.
 
 Code’s finished. Run it and…..
-`slackclient.server.SlackConnectionError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:833)`
+```
+slackclient.server.SlackConnectionError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:833)
+```
 
 The tutorial I’m working from is dated Dec 13, 2017. Maybe Slack added some more auth, or maybe I just can’t type. Either way, let the learning commence.
 
@@ -57,11 +59,15 @@ I just got loaferbot working after 15 minutes on duckduckgo (don't @ me). Turns 
 Holy crap it works. 
 I mean, it does nothing:
 
-`jeremy [11:20 AM]
+```
+jeremy [11:20 AM]
 @loaferbot loaf around or something
 
 loaferbot APP [11:20 AM]
-Sure... write some more code, then I can do that!`
+Sure... write some more code, then I can do that!
+```
 
 But it does something!
 
+# Level 3
+Time to actually dev some ops (op some dev?). Now that we have a humble app locally, I need a few tools. 
