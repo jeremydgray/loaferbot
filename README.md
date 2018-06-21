@@ -1,5 +1,5 @@
 # Building a Slacker
-At a DOXSF meetup last night, I met some cool people. One of them suggested building up a Slack bot as a first project. Without a project, he said, learning all these platforms is tough.
+At a [DOXSFO](https://www.meetup.com/DevOps-Exchange-SanFrancisco) meetup last night, I met some cool people. One of them suggested building up a Slack bot as a first project. Without a project, he said, learning all these platforms is tough.
 
 A Slack bot sounds simple, useful, and trendy. So let’s try it. I found a tutorial that I will walk through, but this project isn’t about the bot. It’s about understanding and chaining a raft of tools together to better understand how they interact.
 
@@ -69,5 +69,24 @@ Sure... write some more code, then I can do that!
 
 But it does something!
 
+Note: to run this app, it's not enough to simply run `python3 loaferbot.py`. It needs a few startup commands. I should script that. 
+I'm going to script that.
+
+[some time passes]
+
+You would think that these three lines would be easy to script:
+
+```
+virtualenv loaferbot
+source loaferbot/bin/activate
+export SLACK_BOT_TOKEN='[redacted]'
+```
+
+and yet it doesn't go. Ah well. Let's not become distracted.
+
 # Level 3
-Time to actually dev some ops (op some dev?). Now that we have a humble app locally, I need a few tools. 
+Time to actually dev some ops (op some dev?). Now that we have a humble app locally, I need a few tools. As I understand it, the traditional pipeline looks like this:
+
+[src] > [scm] > [ci] > [container] > [cloud]
+
+CI is next. Ansible? Jenkins? 
