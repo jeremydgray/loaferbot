@@ -8,19 +8,17 @@ I’m going to approach it in a spiral:
 Level 1 - what do I need to run this locally?
 Python, Slack domain
 
-Level 2 - version control
-Put it in github
+Level 2 - version control: Put it in github
 
-Level 3 - build server?
-Chain git to a CI server (I haven’t decided what to use yet)
+Level 3 - build server? Chain git to a CI server (I haven’t decided what to use yet)
 
 Level 4 - AWS instance
-Push it up
 
 Level 5 - containerize?
 Maybe I can integrate some docker
 
 Level 6 - how much tooling can we add in?
+
 Again, the point isn’t a polished Slack bot. Frankly, who cares? Are there other technologies that I want to learn that are not yet represented here?
 
 We will find out.
