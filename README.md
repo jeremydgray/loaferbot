@@ -25,12 +25,13 @@ Again, the point isn’t a polished Slack bot. Frankly, who cares? Are there oth
 
 We will find out.
 
->>
+# Get Moving
 
 [How to Build Your First Slack Bot with Python - Full Stack Python](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
+
 I will run this through pretty quickly. I’ll start local, then start to build up the pipeline.
 
-loaferbot.slack.com
+[The Slack Domain](loaferbot.slack.com)
 
 I’m not going to copy/paste any of this code. It will be good to get some Python under the fingers, and if I have some bugs in my transcription, they will be good to test and commit. Building up some fodder for the pipeline.
 
@@ -44,3 +45,23 @@ I’ll start by pushing my first draft to GH.
 GH has the first draft of loaferbot.py. Pop the champagne.
 
 Let’s get very meta and push this very text document into the repo as well. I traditionally use Bear as my note taking home, but it feels more appropriate to run the commentary alongside the code. Here we go.
+
+# Level 1.5
+First pass at the code is done, now it's time to troubleshoot the SSL cert error to get the thing to actually run.
+
+I marvel sometimes at how most people are not equipped to handle the technology they use daily.
+Take the iPhone. The iPhone changed the world by packaging an immense body of code and connectivity into a disarming array of buttons. If _anything_ goes wrong with even the configuration (say a Mail setting), they fall apart.
+
+I just got loaferbot working after 15 minutes on duckduckgo (don't @ me). Turns out when you install Python3 from brew and not python.org, the SSL stack doesn't get upgraded. Who knew. Fortunately, [some kind soul](https://stackoverflow.com/questions/44649449/brew-installation-of-python-3-6-1-ssl-certificate-verify-failed-certificate#44649450) put up the solution. I ran that script, and the bot is now awake.
+
+Holy crap it works. 
+I mean, it does nothing:
+
+`jeremy [11:20 AM]
+@loaferbot loaf around or something
+
+loaferbot APP [11:20 AM]
+Sure... write some more code, then I can do that!`
+
+But it does something!
+
