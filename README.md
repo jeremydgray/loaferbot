@@ -87,3 +87,7 @@ Time to actually dev some ops (op some dev?). Now that we have a humble app loca
 [src] > [scm] > [ci] > [container] > [cloud]
 
 CI is next. Ansible? Jenkins? 
+
+[a week goes by]
+
+Here is where the curve turns steep. I built (stole) a simple app and can run it locally without an issue. Getting the pipeline going... this is where I need practice and a bit more hand-holding. Enter [this course](https://app.pluralsight.com/player?course=docker-ansible-continuous-delivery&author=justin-menga&name=docker-ansible-continuous-delivery-m1&clip=1&mode=live). Back with you later.
